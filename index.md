@@ -8,6 +8,7 @@ layout: slide
 ## Rest API com Django Simples e Prático
 
 <br>
+
 [Renato César Lira Borges](https://github.com/rencesar)
 
 29 de Novembro de 2018
@@ -18,14 +19,13 @@ layout: slide
 
 ## O que iremos abordar?
 
-1. Teorica
-    * O que são Rest APIs
-    * Metodos HTTPs
-    * Códigos HTTPs
-    * Como desenhar uma Rest API
-    * Tipos de autenticação
-    * Serializers
-    * ApiViews
+1. O que são Rest APIs
+1. Metodos HTTPs
+1. Códigos HTTPs
+1. Como desenhar uma Rest API
+1. Tipos de autenticação
+1. Serializers
+1. Views
 
 </script></section>
 
@@ -40,7 +40,7 @@ layout: slide
 
 ## Quem sou eu
 
-Renato César, Desenvolvedor de Software a mais de 3 anos.
+Renato César, Desenvolvedor de Software há mais de 3 anos.
 Atualmente trabalho remotamente para [Broadsheet](https://www.broadsheet.com.au/) e curso Sistemas para Internet no IFPB.
 
 </script></section>
@@ -64,6 +64,7 @@ Funciona como um comunicador entre qualquer aplicação e seu backend.
 <section data-markdown><script type="text/template">
 ## Para que serve
 <br>
+
 Para possibilitar uma comunicação entre diferentes streams (frameworks/linguagens), exemplo: 
 
 * Aplicação movel (Kotlin)
@@ -100,7 +101,7 @@ Para possibilitar uma comunicação entre diferentes streams (frameworks/linguag
 
 ## Interface Uniforme
 
-Quando um desenvolvedor se familiarizar com um de suas APIs, ele deve ser capaz de replicar a mesma idea para as outras APIs.
+Quando um desenvolvedor se familiarizar com um de suas APIs, ele deve ser capaz de replicar a mesma ideia para as outras APIs.
 
 </script></section>
 
@@ -108,7 +109,7 @@ Quando um desenvolvedor se familiarizar com um de suas APIs, ele deve ser capaz 
 
 ## Cliente - Servidor
 
-Cliente e servidor operam separadamente. O unico meio de recurso do cliente para o servidor é atraves de URIs.
+Cliente e servidor operam separadamente. O único meio de recurso do cliente para o servidor é atraves de URIs.
 
 </script></section>
 
@@ -116,7 +117,7 @@ Cliente e servidor operam separadamente. O unico meio de recurso do cliente para
 
 ## Stateless
 
-Nenhum conteudo de estado (state) deve ser mantido no servidor entre requisições, apenas o cliente irá gerenciar o estado (state). Não existe sessão nem historico. Os requests funcionam de forma independente.
+Nenhum conteúdo de estado (state) deve ser mantido no servidor entre requisições, apenas o cliente irá gerenciar o estado (state). Não existe sessão nem histórico. Os requests funcionam de forma independente.
 
 </script></section>
 
@@ -132,7 +133,7 @@ Caching podem ser aplicados tanto no cliente como no servidor.
 
 ## Sistema em camadas
 
-O seu serviço pode ser separado em multiplas camadas sem que seu cliente saiba ou sofra impacto com isso.
+O seu serviço pode ser separado em múltiplas camadas sem que seu cliente saiba ou sofra impacto com isso.
 
 </script></section>
 
@@ -140,7 +141,7 @@ O seu serviço pode ser separado em multiplas camadas sem que seu cliente saiba 
 
 ## Código em demanda
 
-O seu serviço pode retornar pedaços de codigos para serem execultados no cliente.
+O seu serviço pode retornar pedaços de códigos para serem execultados no cliente.
 
 </script></section>
 
@@ -209,7 +210,7 @@ O seu serviço pode retornar pedaços de codigos para serem execultados no clien
 
 2. Autorização
 
-    * Verificar se com certas credenciais contem autorização de acesso
+    * Verificar se com certas credenciais contém autorização de acesso
 
 </script></section>
 
@@ -223,7 +224,7 @@ O seu serviço pode retornar pedaços de codigos para serem execultados no clien
 4. [JWT](https://tools.ietf.org/html/rfc7519)
 
 
-click nos links e sera redirecinado para as RFCs
+click nos links e será redirecinado para as RFCs
 
 </script></section>
 
